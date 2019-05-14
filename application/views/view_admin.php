@@ -104,34 +104,49 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
+
+        <li class="treeview active">
+          <a href="#">
+            <i class="fa fa-files-o"></i>
+            <span>Jasa</span>
+            <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+              <!-- <span class="label label-primary pull-right">2</span> -->
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="active"><a href="layout/fixed.html"><i class="fa fa-circle-o"></i> Daftar Jasa</a></li>
+            <li><a href="collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Tambah Jasa</a></li>
+          </ul>
+        </li>
+
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <i class="fa fa-dashboard"></i> <span>Vendor</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li><a href="index.html"><i class="fa fa-circle-o"></i> Daftar Vendor</a></li>
+            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Tambah Vendor</a></li>
           </ul>
         </li>
-        <li class="treeview active">
+
+        <li class="treeview">
           <a href="#">
-            <i class="fa fa-files-o"></i>
-            <span>Layout Options</span>
+            <i class="fa fa-laptop"></i> <span>Pemesanan</span>
             <span class="pull-right-container">
-              <span class="label label-primary pull-right">4</span>
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href="layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li class="active"><a href="layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li><a href="collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
+            <li><a href="index.html"><i class="fa fa-circle-o"></i> Daftar Pesanan</a></li>
           </ul>
         </li>
-        <li>
+        
+
+        <!-- <li>
           <a href="widgets.html">
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
@@ -267,7 +282,7 @@
             <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
           </ul>
         </li>
-        <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
+        <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li> -->
         <li class="header">LABELS</li>
         <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
