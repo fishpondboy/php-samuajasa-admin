@@ -65,10 +65,10 @@ defined('FOPEN_READ_WRITE_CREATE_STRICT')       OR define('FOPEN_READ_WRITE_CREA
 | are as follows:
 |
 |    Standard C/C++ Library (stdlibc):
-|       http://www.gnu.org/software/libc/manual/html_node/Exit-Status.html
+|       https://www.gnu.org/software/libc/manual/html_node/Exit-Status.html
 |       (This link also contains other GNU-specific conventions)
 |    BSD sysexits.h:
-|       http://www.gsp.com/cgi-bin/man.cgi?section=3&topic=sysexits
+|       https://www.gsp.com/cgi-bin/man.cgi?section=3&topic=sysexits
 |    Bash scripting:
 |       http://tldp.org/LDP/abs/html/exitcodes.html
 |
@@ -83,3 +83,13 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+
+/*
+|--------------------------------------------------------------------------
+| Constants for Site
+|--------------------------------------------------------------------------
+|
+*/
+
+define('SITE_NAME', 'SamuaJasa');

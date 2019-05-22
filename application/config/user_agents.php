@@ -87,7 +87,8 @@ $browsers = array(
 	'amaya'			=> 'Amaya',
 	'IBrowse'		=> 'IBrowse',
 	'Maxthon'		=> 'Maxthon',
-	'Ubuntu'		=> 'Ubuntu Web Browser'
+	'Ubuntu'		=> 'Ubuntu Web Browser',
+	'Vivaldi'		=> 'Vivaldi'
 );
 
 $mobiles = array(
@@ -151,6 +152,7 @@ $mobiles = array(
 	'wii'			=> 'Nintendo Wii',
 	'open web'		=> 'Open Web',
 	'openweb'		=> 'OpenWeb',
+	'meizu'                 => 'Meizu',
 
 	// Operating Systems
 	'android'		=> 'Android',
